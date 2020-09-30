@@ -11,11 +11,11 @@
 <body>
     <div class="body-container">
 
-        <header class="flex-container">
+        <header class="grid-container">
             <div id="logo-container">
                 <img id="logo" src="img/logo.jpg" alt="logo">
             </div>
-            <div class="menu flex-container">
+            <div class="menu grid-container">
                 <ul class="nav">
                     <li><a href="index.html" id="underline">Головна</a></li>
                     <li><a href="Control.html">Контрольні</a></li>
@@ -26,76 +26,80 @@
             </div>
         </header>
         
-        <aside>
-            <p class="huge-text">Корисні посилання:</p>
-                <img id="links-img" src="img/links.png" alt="Корисні посилання"
-                usemap="#Navigation">
-                <p><map id="Navigation" name="Navigation">
-                <area shape="rect" coords="0, 0, 200, 200" href="https://www.google.com/" alt="Информация">
-                <area shape="rect" coords="200, 0, 400, 200" href="https://www.linkedin.com/" alt="Информация">
-                <area shape="rect" coords="0, 200, 200, 400" href="https://github.com/" alt="Информация">
-                <area shape="rect" coords="200, 200, 400, 400" href="https://www.microsoft.com/" alt="Информация">
-                </map></p>
-        </aside>
+        <bottom-body class="grid-container">
 
-        <main>
+            <aside>
+                <p class="huge-text">Корисні посилання:</p>
+                    <img id="links-img" src="img/links.png" alt="Корисні посилання"
+                    usemap="#Navigation">
+                    <p><map id="Navigation" name="Navigation">
+                    <area shape="rect" coords="0, 0, 200, 200" href="https://www.google.com/" alt="Информация">
+                    <area shape="rect" coords="200, 0, 400, 200" href="https://www.linkedin.com/" alt="Информация">
+                    <area shape="rect" coords="0, 200, 200, 400" href="https://github.com/" alt="Информация">
+                    <area shape="rect" coords="200, 200, 400, 400" href="https://www.microsoft.com/" alt="Информация">
+                    </map></p>
+            </aside>
+            
+            <main class="grid-container">
+                <div id="topmain">
 
-            <div id="topmain">
+                    <article class="grid-container">
+                        <div id="content">
+                            <p>
+                                Хочете купити курсову в Києві або іншому місті? 
+                                “Storozhuk company” – експерт в області написання 
+                                студентських робіт по економічним, 
+                                правовим, гуманітарним та іншим дисциплінам. 
+                                Замовляйте будь-який вид робіт швидко і за приємними 
+                                цінами. Досвід, отриманий за роки надання 
+                                послуг студентам, гарантує якість виконання замовлення.
+                            </p>
+                        </div>
+                    </article>
 
-                <article class="flex-container">
-                    <div id="content">
-                        <p>
-                            Хочете купити курсову в Києві або іншому місті? 
-                            “Storozhuk company” – експерт в області написання 
-                            студентських робіт по економічним, 
-                            правовим, гуманітарним та іншим дисциплінам. 
-                            Замовляйте будь-який вид робіт швидко і за приємними 
-                            цінами. Досвід, отриманий за роки надання 
-                            послуг студентам, гарантує якість виконання замовлення.
-                        </p>
+                    <div>
+                        <div id="firstdiv" class="grid-container">
+                            <ul>            
+                                <b>Наші послуги:</b>
+                                <li>Виконання дз <img src="img/iconfinder_book-write_1291735.png" class="small-image"> </li>
+                                <li>Написання кр <img src="img/iconfinder_document-03_1622833.png" class="small-image"> </li>
+                                <li>Допомога з екзаменами <img src="img/iconfinder_exam_3883234.png" class="small-image"> </li>
+                            </ul>
+                        </div>
+
+                        <div id="seconddiv" class="grid-container">
+                            <ol>
+                                <b>Наші гарантії:</b>
+                                <li>Кваліфіковані вчителі</li>
+                                <li>Повна анонімність</li>
+                                <li>Низькі ціни</li>
+                            </ol>
+                        </div>
                     </div>
-                </article>
+                    
+                </div>
 
-                <div class="rightdiv">
-                    <div id="firstdiv" class="flex-container">
-                        <ul>            
-                            <b>Наші послуги:</b>
-                            <li>Виконання дз <img src="img/iconfinder_book-write_1291735.png" class="small-image"> </li>
-                            <li>Написання кр <img src="img/iconfinder_document-03_1622833.png" class="small-image"> </li>
-                            <li>Допомога з екзаменами <img src="img/iconfinder_exam_3883234.png" class="small-image"> </li>
-                        </ul>
+                <footer class="grid-container">
+                    <div class="footer-image">
+                        <img src="img/hotdog.gif" alt="hotdog" id="hotdog">
                     </div>
-
-                    <div id="seconddiv" class="flex-container">
-                        <ol>
-                            <b>Наші гарантії:</b>
-                            <li>Кваліфіковані вчителі</li>
-                            <li>Повна анонімність</li>
-                            <li>Низькі ціни</li>
-                        </ol>
+                    <div class="contacts">
+                        <div class="info">
+                            <p>
+                                Contacts
+                            </p>
+                            <p>
+                                email: honkqq@gmail.com
+                            </p>
+                            <p>
+                                phone: 0975320628
+                            </p>
+                        </div>
                     </div>
-                </div>
-                
-            </div>
-
-            <footer class="flex-container">
-                <div class="footer-image">
-                    <img src="img/hotdog.gif" alt="hotdog" id="hotdog">
-                </div>
-                <div class="contacts">
-                    <p>
-                        Contacts
-                    </p>
-                    <p>
-                        email: honkqq@gmail.com
-                    </p>
-                    <p>
-                        phone: 0975320628
-                    </p>
-                </div>
-            </footer>
-
-        </main>
+                </footer>
+            
+            </main>
+        </bottom-body>
 
     </div>
 </body>
