@@ -1,8 +1,5 @@
 .body-container{
     background-image: url(img/back.jpg);
-    
-    display: flex;
-    flex-wrap: wrap;
     height: 100vh;
     width: 100%;
     margin: 0px;
@@ -23,6 +20,7 @@ header{
 main{
     width: 75%;
     height: 75%;
+    float: right;
 }
 
 aside{
@@ -30,12 +28,14 @@ aside{
     height: 75%;
     width: 25%;
     text-align: center;
+    float: left;
 }
 
 article{
     background-color: rgba(255, 255, 0, 0.5);
     width: 70%;
     height: 100%;
+    float: left;
 }
 
 #content{
@@ -50,7 +50,6 @@ footer{
 }
 
 #topmain{
-    display: flex;
     width: 100%;
     height: 70%;
 }
@@ -58,6 +57,7 @@ footer{
 .rightdiv{
     width: 30%;
     height: 100%;
+    float: right;
 }
 
 #firstdiv{
