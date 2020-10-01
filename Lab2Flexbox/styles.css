@@ -1,6 +1,5 @@
 .body-container{
-    background-image: url(img/back.jpg);
-    
+    background-image: url(img/back.jpg);                                               
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
@@ -79,7 +78,7 @@ footer{
 }
 
 #logo-container{
-    width: 80%;
+  
 }
 
 .h1_container{
@@ -161,11 +160,11 @@ ol, ul{
 
 .footer-image{
     margin: auto 0px auto 40px;
-    width: 30%;
+    width: 40%;
 }
 
 #hotdog{
-    width: 30%;
+    width: 40%;
 }
 
 .contacts{

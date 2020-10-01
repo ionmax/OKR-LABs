@@ -4,7 +4,6 @@
     grid-template-rows: 25% 75%;
     height: 100vh;
     width: 100%;
-    margin: 0px;
 }
 
 .grid-container{
@@ -120,7 +119,6 @@ ol, ul{
     font-family: sans-serif;
     text-transform: uppercase;
     transition: .5s;
-    text-align: left;
 }
 
 

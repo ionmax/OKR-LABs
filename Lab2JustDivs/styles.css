@@ -165,14 +165,16 @@ ol, ul{
 }
 
 .footer-image{
-    margin: auto 0px auto 40px;
-    width: 30%;
+    background-color: white;
+    height: 50%;
+    width: 40%;
+    float: left;
+    margin: 60px;
 }
 
 #hotdog{
-    width: 30%;
-    float: left;
-    margin: 40px 10px;
+    float: right;
+    
 }
 
 .contacts{
