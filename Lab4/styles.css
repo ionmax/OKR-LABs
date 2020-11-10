@@ -1,0 +1,235 @@
+body{
+    background-image: url(img/back.jpg);
+    background-size: cover;                                               
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+p{
+    padding: 1.125rem;
+}
+
+.flex-container{
+    display: flex;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgba(0, 255, 255, 0.5);
+    width: 100%;
+    height: 25%;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 75%;
+    height: 75%;
+}
+
+aside{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.8);
+    height: 75%;
+    width: 25%;
+    color: red;
+}
+
+aside p{
+    width: 60%;
+}
+
+article{
+    background-color: rgba(255, 255, 0, 0.5);
+    width: 70%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+article form{
+    width: 40%;
+}
+
+#content{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#content form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    visibility: hidden;
+}
+
+footer{
+    background-color: rgba(0, 217, 255, 0.5);
+    width: 100%;
+    height: 30%;
+    justify-content: space-between;
+}
+
+#topmain{
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+.rightdiv{
+    width: 30%;
+    height: 100%;
+}
+
+#firstdiv{
+    background-color:rgba(0, 255, 0, 0.5);
+    height: 50%;
+}
+
+#seconddiv{
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 50%;
+}
+
+#logo{
+    margin: 20px 20px;
+}
+
+.h1_container{
+    width: 80%;
+    text-align: right;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 20px;
+    line-height: 200%;
+}
+
+#content p{
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+ol, ul{
+    margin: auto 20px;
+}
+
+.small-image{
+    width: 30px;
+}
+
+.menu{  
+    width: 65%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.nav li{
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .5s;  
+}
+
+.nav li:first-child{
+    padding-left: 0;
+}
+
+
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+    padding: 10px; 
+}
+
+.nav:hover li a:hover {
+    font-size: 28px;
+    background-color: #ede739;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+#links-img{
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+.footer-image{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 0px auto 40px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+#hotdog{
+    size: 50%;
+    padding: 20px;
+}
+
+.contacts{
+    width: 30%;
+    text-align: center;
+    margin: auto 0px;
+}
+
+input{
+    display: block;
+    background-color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    margin: 3.125rem 2rem;
+    padding: 6px 18px; 
+    z-index: 1;
+}
+
+input:hover {
+    opacity: .8;
+}
+
+.js-close{
+    display: none;
+}
+
+.edit{
+    margin: .5rem .5rem;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+#aside{
+    display: flex;
+    justify-content: flex-end;
+}
