@@ -8,7 +8,7 @@ const sixth = document.getElementsByClassName("contacts")[0];
 
 // 1
 
-const delay = 2000;
+const delay = 5000;
 
 let parts = [first, second, third, fourth, fifth, sixth];
 let partsHtml = [];
@@ -130,6 +130,7 @@ function task5(){
     let input = $("#task5").val();
     let numbers = input.split(" ");
 
+    let reg = new RegExp("^-?\d+\.?\d*$");
     let filtered = numbers.filter((elem) => {
         return /^-?\d+\.?\d*$/.test(elem);
     });
